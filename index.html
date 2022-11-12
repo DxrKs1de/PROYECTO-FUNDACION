@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>FORMULARIO</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+    </style>
+</head>
+<body>   
+
+    <h1>Fundación Pies Descalzos</h1>
+    <form class="FORMULARIO" >
+        <fieldset class="cuadro">
+        <div class="CAMPO" class = "CAMP2">
+            <label>Nombres</label>
+            <div>
+            <input type="text" id = "Nombre" class = "Nombre" placeholder="" required>
+            </div>
+        </div>
+
+        <div class="CAMPO">
+            <label>Apellidos</label>
+            <div>
+            <input type="text" id="Apellido" class = "Apellido" placeholder="" required>
+            </div>
+        </div>
+
+        <div class="CAMPO">
+            <label>Grado</label>
+            <div>
+            <input type="number" id="Grado" class = "Grado" min="6" max="11" required>
+            </div>
+        </div>
+
+        <div class="CAMPO">
+            <label>Edad</label>
+            <div>
+            <input type="number" id="Edad" class = "Edad" placeholder="" min="1" max="100" required>
+            </div>
+        </div>
+
+
+        <div class="CAMPO">
+        <p  class="TITULO" >SEXO</p>
+        <input type="radio"  value= "Masculino" name="SEXO" class = "SEXO1" required> 
+        <label>
+          MASCULINO
+        </label>
+        <input type="radio"  value = "Femenino" name="SEXO" class = "SEXO2" required> 
+        <label>
+        FEMENINO
+        </label>
+        </div>
+        
+        <div class="CAMPO">
+            <label >Estado civil</label>
+            <div >
+            <Select id = "ESTD-CVL" class="ESTADO" required>
+                <option disabled = "disabled" selected = "true" value=""> Seleccione </option>
+                <option>Soltero</option>
+                <option>Casado</option>
+            </Select>
+             </div>
+        </div>
+
+        <div class="CAMPO">
+            <label>¿Pertenece a una población vulnerable?</label>
+            <div>
+            <Select id = "PBV" class="POBLACION" required>
+                <option disabled = "disabled" selected = "true" value=""> Seleccione </option>
+                <option>Si</option>
+                <option>No</option>
+            </Select>   
+            </div>
+        </div>
+
+        <div class="CAMPO">
+            <label>Localidad</label>
+            <div>
+            <Select id = "UBICACION" class="UBICACION" required>
+                <option disabled = "disabled" selected = "true" value=""> Seleccione </option>
+                <option>La playa</option>
+                <option>Malambo</option>
+                <option>Barranquilla</option>
+                <option>Galapa</option>
+            </Select>
+            </div>
+        </div>
+
+        <div class="BTN">
+            <input class="BTN-ENV" type="submit" value="Enviar">
+        </div>
+
+        <div id = "alerta"> </div>
+
+
+         </fieldset>
+
+
+    </form>
+
+    
+    <!-- Fin del formulario -->
+    <div class = "DIV">
+    <form action="" id="VERIFICAR" >
+        <!-- <input class="BTN-RSL" type="submit" value="Resultados" > -->
+        <button id="myBtn" class="BTN-RSL" type="submit">Resultados</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+    <span class="close">&times;</span>
+    <p></p>
+    <label for="" class="LBL"> PERSONAS MAYORES DE EDAD: 
+    <p id="MA_ED" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> PERSONAS EN EL GRADO 6°
+    <p id="GRADO1" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> PERSONAS EN EL GRADO 7°
+    <p id="GRADO2" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> PERSONAS EN EL GRADO 8°
+    <p id="GRADO3" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> PERSONAS EN EL GRADO 9°
+    <p id="GRADO4" class="CONT-M"></p>
+    </label>
+
+    
+    <label for="" class="LBL"> PERSONAS EN EL GRADO 10°
+    <p id="GRADO5" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> PERSONAS EN EL GRADO 11°
+    <p id="GRADO6" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> NUMERO DE HOMBRES: 
+    <p id="SEXO1" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> NUMERO DE MUJERES:
+    <p id="SEXO2" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> NUMERO DE PERSONAS VULNERABLES:
+    <p id="POBLACION" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> PERSONAS QUE RESIDEN EN LA PLAYA:
+    <p id="UBICACION1" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> PERSONAS QUE RESIDEN EN MALAMBO:
+    <p id="UBICACION2" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> PERSONAS QUE RESIDEN EN BARRANQUILLA:
+    <p id="UBICACION3" class="CONT-M"></p>
+    </label>
+
+    <label for="" class="LBL"> PERSONAS QUE RESIDEN EN GALAPA:
+    <p id="UBICACION4" class="CONT-M"></p>
+    </label>
+
+    </div>
+    </div>
+    </div>
+</form>  
+
+<!-- SCRIPT -->
+    <script src="JS/indexjs.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</body>
+</html>

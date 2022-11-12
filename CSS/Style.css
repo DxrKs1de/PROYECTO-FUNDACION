@@ -1,0 +1,296 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+ body {
+
+    background-image: url(/IMG/FONDO.svg);
+    background-repeat: no-repeat;
+    
+    
+
+} 
+
+h1 {
+
+text-shadow: 0 1px 0 #2ebde9, 0 2px 0 #05a6e6, 0 3px 0 rgb(16, 96, 216), 0 4px 0 #0519cc, 0 5px 0 rgb(44, 164, 233), 0 6px 1px #1679eb1a, 0 0 5px rgba(27, 163, 204, 0.1), 0 1px 3px rgba(32, 165, 226, 0.3), 0 3px 5px rgba(31, 206, 230, 0.2), 0 5px 10px rgba(17, 128, 202, 0.25), 0 10px 10px rgba(30, 69, 245, 0.2), 0 20px 20px rgba(29, 123, 231, 0.15), 17px 10px 3px rgba(17, 110, 185, 0);
+color: #FFFFFF;
+font-family: 'Josefin Sans', sans-serif;
+margin-left: 720px;
+margin-top: 50px;
+font-size: 40px;
+
+
+}
+
+.CAMPO {
+    padding-bottom: 25px;  
+    padding-top: 12px; 
+    
+}
+
+
+
+
+.cuadro {
+
+    width: 400px;
+    height: 730px;
+    margin-left: 720px;
+    margin-top: 50px;
+    padding-left: 70px;
+    border-radius: 20px;   
+    box-shadow: 12px 14px 10px 10px rgb(194, 214, 228);
+    border-color: #3742fa;
+    background-color: #FFFFFF;
+    
+     
+}
+
+
+
+
+.Nombre {
+
+    width: 320px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #3742fa;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px; 
+}
+
+.Apellido {
+
+    width:320px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #3742fa;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px; 
+}
+
+.Grado {
+
+    width:40px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #3742fa;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px; 
+    
+}
+
+
+.Edad {
+
+    width:40px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #3742fa;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 24px;
+    transition: 0.2s;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px; 
+}
+
+
+.SEXO1 {
+
+
+}
+
+
+.SEXO2 {
+    margin-left: 90px;  
+}
+
+
+
+
+.ESTADO {
+
+    width:320px;
+    height: 30px;
+    border: 2px solid #3742fa;
+    border-radius: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px; 
+
+}
+
+.POBLACION {
+
+    width:320px;
+    height: 30px;
+    border: 2px solid #3742fa;
+    border-radius: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px; 
+
+}
+
+
+.UBICACION {
+
+    width:320px;
+    height: 30px;
+    border: 2px solid #3742fa;
+    border-radius: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px; 
+
+}
+
+
+.BTN-ENV {
+
+    margin-left: 120px;
+    height: 40px;
+    width: 85px;
+    border-radius: 20px;
+    transition: 0.3s;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px; 
+    border-color: #3742fa;
+
+}
+
+.BTN-RSL {
+    margin-top: 30px;
+    margin-left: 880px;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    transition: 0.3s;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    border-color: #3742fa;
+
+}
+
+.BTN-ENV:hover, .BTN-RSL:hover {
+
+    border-color: #3742fa;
+    background-color: #3742fa;
+    color: white;
+
+}
+
+
+.Nombre:focus, .Apellido:focus, .Grado:focus, .Edad:focus, 
+.Nombre:hover, .Apellido:hover, .Grado:hover, .Edad:hover { 
+
+    height: 30px;
+    width: 320px;
+  
+}
+
+
+.ESTADO:hover, .POBLACION:hover, .UBICACION:hover {
+
+    background-color: #3742fa;
+    transition: 0.4s;
+    color: #FFFFFF;
+
+    
+
+}
+
+
+form label, form p{
+
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    top: 0;
+    width: 500px; /* Full width */
+    height: 800px; /* Full height */
+    margin-left: 130px;
+  }
+  
+
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 70px auto; 
+    padding: 20px;
+    border: 2px solid rgb(30, 77, 206);
+    border-radius: 20px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    transition: 0.25s;
+  }
+
+
+
+  
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: 0.25s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: rgb(23, 43, 223);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 40px;
+    
+    
+  }
+
+
+
+
+.CONT-M {
+
+    margin-top: 9px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(30, 77, 206);
+    border-radius: 7px;
+    width: 30px;
+    text-align: center;
+    
+
+}
